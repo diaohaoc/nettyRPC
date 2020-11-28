@@ -11,6 +11,7 @@
     <properties>
         <netty.version>4.1.45.Final</netty.version>
         <slf4j.version>1.7.30</slf4j.version>
+        <kyro.version>4.0.2</kyro.version>
     </properties>
     <modules>
         <module>rpc-core</module>
@@ -22,6 +23,11 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
     </dependencies>
